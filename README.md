@@ -1,4 +1,4 @@
-# B4T-Crawler – Documentação Técnica
+# B4T-Crawler
 
 O **B4T-Crawler** é um web crawler multithreaded desenvolvido em Python, criado para realizar o mapeamento rápido de sites, coletando todos os links internos até um nível de profundidade determinado.
 
@@ -208,20 +208,5 @@ Os links coletados são armazenados de forma ordenada, um por linha.
 
 ---
 
-## 9. Conclusão
-
-O **B4T-Crawler** é uma ferramenta simples, mas eficiente, que demonstra bem:
-- O uso de **multithreading** para tarefas I/O-bound.  
-- A importância de **sincronização de dados** em ambientes concorrentes.  
-- O fluxo básico de **coleta e filtragem de links** em crawlers reais.
-
-Sua arquitetura modular facilita futuras expansões, como:
-- Suporte a `robots.txt`
-- Armazenamento em banco de dados
-- CLI completa com `argparse`
-- Exportação para JSON/CSV
-
----
-
-> "Mapeie a web com inteligência, não com força bruta."  
+> "Mapear a web com inteligência faz parte de uma operação eficiente."  
 > — The_B4TM4N
